@@ -6,6 +6,6 @@ Este repositório contém rotinas (funções e procedures) e exemplos de estrutu
 Rotinas para validação de CPF e CNPJ diretamente no banco de dados mySQL
 
 # Autor
-Renato Monteiro Batista
+Renato Monteiro Batista | [Site Pessoal](http://871982.xyz) | [GitHub](https://github.com/renatomb/)
 
 
