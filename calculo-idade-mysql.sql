@@ -3,7 +3,7 @@
 -- A consulta calcula a idade com base na data atual (CURDATE())
 -- Certifique-se de substituir 'sua_tabela' pelo nome real da sua tabela
 -- Data: 2025-06-25
--- Autor: Renato Monteiro Batista
+-- Autor: Eng. Renato Monteiro Batista (https://renato.ovh) - RMB Informatica (https://rmbinformatica.com)
 
 
 -- Exemplo de consulta para calcular a idade, pode ser usado para criar uma view ou uma consulta direta
