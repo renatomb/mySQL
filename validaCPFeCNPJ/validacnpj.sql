@@ -1,3 +1,12 @@
+-- Este arquivo contem uma funcao de validacao de CNPJ
+-- A funcao recebe um CNPJ como parametro e retorna TRUE se o CNPJ for valido
+-- ou FALSE se o CNPJ for invalido
+-- A funcao utiliza a logica de validacao do CNPJ, verificando os digitos verificadores
+-- A funcao deve ser criada no banco de dados MySQL
+-- Data: 2018-12-16
+-- Autor: Eng. Renato Monteiro Batista (https://renato.ovh) - RMB Informatica (https://rmbinformatica.com)
+
+
 CREATE FUNCTION validacnpj(cnpj BIGINT(14) UNSIGNED ZEROFILL) 
 RETURNS TINYINT 
 DETERMINISTIC 

@@ -1,3 +1,12 @@
+-- Esta função valida um CPF no banco de dados MySQL
+-- A função recebe um CPF como parâmetro e retorna TRUE se o CPF for válido
+-- ou FALSE se o CPF for inválido
+-- A função utiliza a lógica de validação do CPF, verificando os dígitos verificadores
+-- A função deve ser criada no banco de dados MySQL
+-- Data: 2018-12-16
+-- Autor: Eng. Renato Monteiro Batista (https://renato.ovh) - RMB Informatica (https://rmbinformatica.com)
+
+
 CREATE FUNCTION validacpf(cpf bigint(11) UNSIGNED ZEROFILL) 
 RETURNS TINYINT 
 DETERMINISTIC 
