@@ -1,0 +1,1 @@
+SELECT *, TIMESTAMPDIFF(YEAR, nascimento, CURDATE()) AS idade FROM sua_tabela;
